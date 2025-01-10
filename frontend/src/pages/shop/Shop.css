@@ -1,0 +1,15 @@
+.shop{
+        width: 100%;
+        min-height: 100vh;
+}
+
+
+.shop .heading{
+        font-size: 4vmax;
+        width: 100%;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+}

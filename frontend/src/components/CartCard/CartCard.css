@@ -1,0 +1,75 @@
+.Cartcard{
+        width: 90%;
+        height: 180px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.59);
+        border-radius: 20px;
+
+}
+
+.left-card img{
+        max-width: 50%;
+        height: 100%;
+
+}
+
+.left-card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        height: 100%;
+        padding: 20px;
+}
+
+
+.left-card .name-price{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        font-size: 20px
+
+}
+
+.right-card button{
+        background-color: rgb(227, 7, 7);
+        color: white;
+        margin-right: 10px;
+        padding: 10px 20px;
+        font-size: 18px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+}
+
+.right-card button:hover{
+        opacity: 0.8;
+}
+
+@media (max-width:750px){
+        .Cartcard{
+                flex-direction: column;
+                height: 500px;
+                align-items: start;
+                width: 300px;
+                gap: 10px;
+                padding: 0;
+                margin:0;
+        }
+
+        .left-card{
+                flex-direction: column;
+                align-items: start;
+                
+        }
+
+        .right-card {
+                padding: 20px;
+        }
+
+        .left-card img{
+                height:40%;
+        }
+}
